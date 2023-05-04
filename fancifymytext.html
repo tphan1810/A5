@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script type="text/javascript" src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		<!-- A field set box for users to enter text. -->
+
+		<fieldset style="width: 500px;">
+
+	<legend>Text</legend>
+	
+	<textarea rows="4" cols="30" id="text_id"></textarea>
+	
+		</fieldset>
+	
+		<br><br>
+	
+		<!-- Your UI controls go here -->
+	
+		<fieldset style="width: 500px;">
+	
+		<legend>Fancify</legend>
+	
+		<!-- Button -->
+	
+		<button onclick="new_function()">Bigger!</button><br><br>
+	
+		<!-- Radio buttons -->
+	
+		<input type="radio" name="r" value="FancyShmancy" id="fancy_radio_button" onchange="new_function()">FancyShmancy
+	
+		<input type="radio" name="r" value="BoringBetty" id="boring_radio_button" onchange="new_function()">BoringBetty
+	
+		</fieldset>
+	
+		<br>
+	
+		<br>
+	
+		<!-- Button to change the text of textfield to uppercase and adds a suffix "-Moo" to the last word of each sentence. -->
+	
+		<button onclick="moo()">Moo</button>
+
+	</body>
+</html>
